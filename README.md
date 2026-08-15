@@ -19,3 +19,5 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+You need a job
