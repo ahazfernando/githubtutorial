@@ -3,12 +3,9 @@
 import Link from "next/link";
 import { useEffect } from "react";
 
-import { reportLovableError } from "@/lib/lovable-error-reporting";
-
 export default function Error({ error, reset }: { error: Error; reset: () => void }) {
   useEffect(() => {
     console.error(error);
-    reportLovableError(error, { boundary: "next_root_error_component" });
   }, [error]);
 
   return (
