@@ -1,0 +1,10 @@
+node_modules
+dist
+.next
+out
+.output
+.vinxi
+pnpm-lock.yaml
+package-lock.json
+bun.lock
+
